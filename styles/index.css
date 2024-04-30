@@ -1,0 +1,120 @@
+:root{
+    --corPrimaria : #B1BC93; 
+    --corSecundaria : #f8804ccc ;
+    --corBtnCatalogo: #F87F4C ;
+    --corBtnBorda: #AFD5D9;
+    --black : black;
+    --branco : #ecebeb;
+    --fontePrincipal : 'Trebuchet MS';
+    --tamanhoFonteTitulo : 24pt;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.icon{
+    width: 35%;
+    height: auto;
+    margin: 0px 20px;
+}
+
+header , footer{
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    background-color: var(--corPrimaria);
+    color: var(--branco);
+}
+
+a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+header{
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header li{
+    display: flex;
+    align-items: center;
+}
+
+header a{
+    font-size: large;
+}
+
+#banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(image/banner.jpg);
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    align-items: center;
+}
+
+#msgBoasVindas{
+    width: 42%;
+    padding: 15px;
+    justify-content: left;
+    background-color: var(--corSecundaria);
+    line-height: 1.5;
+}
+
+#btnCatalogo{
+    padding: 10px;
+    border: none;
+    border: 2px solid var(--corBtnBorda);
+    background-color: var(--corBtnCatalogo);
+    color: var(--branco);
+    border-radius: 3px;
+}
+
+#sobreNos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px;
+    line-height: 1.5;
+}
+
+#topicoDicas{
+    gap: 20px;
+    justify-content: center;
+}
+
+.topicoGrupo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 10px 0px;
+}
+
+.topicoImagem{
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    margin-top: 40px;
+}
+
+#topicoCultivo{
+    background-image: url(image/cultivo.jpg);
+}
+
+

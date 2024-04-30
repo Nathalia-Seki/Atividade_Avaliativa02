@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles/cadastro.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">
+                    <img src="../image/icons8-home.svg" alt="Pagina Principal">
+                </a>
+                </li>
+                <li><a href="/index.html">Página Principal</a></li>
+                <li><a href="styles/Pages/login.html">Login</a></li>
+                <li><a href="styles/Pages/catalogo.html">Catálogo</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="topico">
+            <h3>CADASTRO</h3>
+            <form action="#">
+                <div class="espaco">
+                    <label for="nomeCompleto">Nome Completo:</label>
+                    <input required type="text" id="nomeCompleto">
+                </div>
+
+                <div class="espaco">
+                    <label for="nomeDoUsuario">Nome do Usuário:</label>
+                    <input type="text" id="nomeDoUsuario">
+                </div>
+
+                <div class="espaco">
+                    <label for="senhaDoUsuario">Insira a sua senha:</label>
+                    <input required maxlength="8" type="password" id="senhaDoUsuario">
+                </div>
+
+                <div class="espaco">
+                    <label for="emailDoUsuario">Insira o seu e-mail</label>
+                    <input required placeholder="usuaro@email.com" type="email" id="emailDoUsuario">
+                </div>
+
+                <div class="espaco">
+                    <label for="nascimentoDoUsuario">Insira a data de nascimento</label>
+                    <input type="date" id="nascimentoDoUsuario">
+                </div>
+
+                <div class="espaco">
+                    <label for="aceitaNotificar">Aceita rebecer notificações no e-mail?</label>
+                    <input type="checkbox" id="aceitaNotificar">
+                </div>
+
+                <div class="espaco">
+                    <button type="submit">Cadastrar</button>
+                    <button type="reset"> Resetar Formulário</button>
+
+                </div>
+            
+            </form>                                                                                         
+        </div>
+    </main>
+
+    <footer></footer>
+</body>
+</html>

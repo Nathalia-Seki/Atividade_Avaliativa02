@@ -1,0 +1,66 @@
+:root{
+    --corPrimaria : #009b94; 
+    --corSecundaria : #f2871b6e ;
+    --corBtnFacaConta: #f2861b ;
+    --corBackBtnFacaConta: #302727;
+    --black : black;
+    --branco : #ecebeb;
+    --fontePrincipal : 'Trebuchet MS';
+    --tamanhoFonteTitulo : 24pt;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header , footer{
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    background-color: var(--corPrimaria);
+    color: var(--branco);
+}
+
+a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+header{
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+h3{
+    text-align: center;
+    color: deeppink;
+}
+
+.topico{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 20, 145, 0.062);
+}
+
+.espaco{
+    margin: 20px;
+    
+}
+
+button{
+    color: white;
+    background-color:deeppink;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 8px;
+    cursor: pointer;
+}
