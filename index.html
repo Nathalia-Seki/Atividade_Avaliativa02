@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">
-                    <img class="icon" src="icon-folha.png" alt="icone folha">
+                    <img class="icon" src="styles/image/icon-folha.png" alt="icone folha">
                 </a>
                 </li>
                 <li><a href="styles/Pages/login.html">Login</a></li>
@@ -30,20 +31,63 @@
                 <button type="button" id="btnCatalogo"><a href="styles/Pages/catalogo.html">Catálogo</a></button>
             </div>
         </section>
-        <section id="sobreNos">
+        <!-- SOBRE NÓS -->
+        <section class="texto">
             <h3>SOBRE NÓS</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus accusamus nam reiciendis soluta pariatur modi fugit sunt architecto ad. Sed aperiam nihil eos laboriosam, similique harum! Laboriosam molestias veniam dolorem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis debitis quam unde ut aut autem magni odit officiis fugit placeat animi, blanditiis vel explicabo modi pariatur a? Recusandae, quisquam eveniet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, mollitia. Cupiditate, perferendis suscipit inventore recusandae provident ipsam tenetur voluptatem blanditiis voluptatibus veritatis quia dolorum explicabo facilis. Maiores explicabo nisi sint?</p>
         </section>
+        
+        <!-- ALGUMAS DICAS -->
+        <section class="texto">
+            <h3>ALGUMAS DICAS</h3>
+        </section>
         <section id="topicoDicas">
+            <!-- Cultivo -->
             <div class="topicoGrupo">
-                    <div class="topicoImagem" id="topicoCultivo"></div>
+                    <div class="animate__infinite animate__animated animate__pulse topicoImagem" id="topicoCultivo"></div>
                     <h3>Cultivo</h3>
-                    <button type="button">VER MAIS</button>
+                    <button type="button" class="btntopicoDicas">VER MAIS</button>
+            </div>
+
+            <!-- Decoração -->
+            <div class="topicoGrupo">
+                <div class="animate__infinite animate__animated animate__pulse topicoImagem" id="topicoDecoracao"></div>
+                <h3>Decoração</h3>
+                <button type="button" class="btntopicoDicas">VER MAIS</button>
+            </div>
+
+            <!-- Eventos -->
+            <div class="topicoGrupo">
+                <div class="animate__infinite animate__animated animate__pulse topicoImagem" id="topicoEventos"></div>
+                <h3>Eventos</h3>
+                <button type="button" class="btntopicoDicas">VER MAIS</button>
             </div>
         </section>
     </main>
 
-    <footer>TODOS OS DIREITOS RESERVADOS A </footer>
+    <footer>
+        <section>
+            <h3># Entre em contato</h3>
+            <p>Endereço: 119 Brasília, DF, Brasil CEP 7000-632</p>
+            <p><a href="https://www.google.com/maps/dir//senai+sig+mapa/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x935a3a8573c445db:0x3eecc7448f1a024b?sa=X&ved=1t:3061&ictx=111">Como chegar - Clique aqui</a></p>
+            <p>Telefone: +55 61 6161 3744</p>
+        </section>
+
+        <section id="grupoRedes">
+            <div class="redes">
+                <div class="redesInones">
+                    <img src="styles/image/instagram (1).png" alt="logo instagram">
+                </div>
+                <p><a href="#">gree_haven</a></p>
+            </div>
+            <div class="redes">
+                <div class="redesInones">
+                    <img src="styles/image/whatsapp__1_-removebg-preview.png" alt="logo whatsapp">
+                </div>
+                <p><a href="#">whatsapp</a></p>
+            </div>
+        </section>    
+    </footer>
 
     
 </body>

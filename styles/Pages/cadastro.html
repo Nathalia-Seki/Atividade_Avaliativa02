@@ -11,18 +11,17 @@
     <header>
         <nav>
             <ul>
-                <li><a href="/index.html">
-                    <img src="../image/icons8-home.svg" alt="Pagina Principal">
+                <li><a href="index.html">
+                    <img class="icon" src="/styles/image/icon-folha.png" alt="icone folha">
                 </a>
                 </li>
                 <li><a href="/index.html">Página Principal</a></li>
-                <li><a href="styles/Pages/login.html">Login</a></li>
-                <li><a href="styles/Pages/catalogo.html">Catálogo</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
             </ul>
         </nav>
-    </header>
-    
-    <main>
+    </header> 
+    <main class="imagem" id="imgFundo">
         <div class="topico">
             <h3>CADASTRO</h3>
             <form action="#">
@@ -52,6 +51,32 @@
                 </div>
 
                 <div class="espaco">
+                    <label for="endereco">Endereço: </label>
+                    <input required type="endereco">
+                    <label for="cidade">Cidade: </label>
+                    <select id="cidade">
+                        <option value=""> - </option>
+                        <option value="aguasClaras">Águas Claras</option>
+                        <option value="guara1">Guará 1</option>
+                        <option value="guara2">Guará 2</option>
+                        <option value="ceilandia">Ceilândia</option>
+                        <option value="riachoFundo1">Riacho Fundo 1</option>
+                        <option value="riachoFundo2">Riacho Fundo 2</option>   
+                    </select>
+                    <label for="cep">CEP: </label>
+                    <input required placeholder = " 00.000-000" maxlength="9" type="text" id="cep">
+                    <label for="uf">UF: </label>
+                    <select id="uf">
+                        <option value=""> - </option>
+                        <option value="DF">DF</option>
+                        <option value="GO">GO</option>
+                        <option value="TO">TO</option>
+                        <option value="MG">MG</option>
+                        <option value="SP">SP</option>
+                    </select>
+                </div>
+
+                <div class="espaco">
                     <label for="aceitaNotificar">Aceita rebecer notificações no e-mail?</label>
                     <input type="checkbox" id="aceitaNotificar">
                 </div>
@@ -59,13 +84,32 @@
                 <div class="espaco">
                     <button type="submit">Cadastrar</button>
                     <button type="reset"> Resetar Formulário</button>
-
-                </div>
-            
+                </div>      
             </form>                                                                                         
         </div>
     </main>
 
-    <footer></footer>
+    <footer>
+        <section>
+            <h3># Entre em contato</h3>
+            <p>Endereço: 119 Brasília, DF, Brasil CEP 7000-632</p>
+            <p><a href="https://www.google.com/maps/dir//senai+sig+mapa/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x935a3a8573c445db:0x3eecc7448f1a024b?sa=X&ved=1t:3061&ictx=111">Como chegar - Clique aqui</a></p>
+            <p>Telefone: +55 61 6161 3744</p>
+        </section>
+        <section id="grupoRedes">
+            <div class="redes">
+                <div class="redesInones">
+                    <img src="/styles/image/instagram (1).png" alt="logo instagram">
+                </div>
+                <p><a href="#">gree_haven</a></p>
+            </div>
+            <div class="redes">
+                <div class="redesInones">
+                    <img src="/styles/image/whatsapp__1_-removebg-preview.png" alt="logo whatsapp">
+                </div>
+                <p><a href="#">whatsapp</a></p>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>

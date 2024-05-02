@@ -4,7 +4,7 @@
     --corBtnCatalogo: #F87F4C ;
     --corBtnBorda: #AFD5D9;
     --black : black;
-    --branco : #ecebeb;
+    --branco : white;
     --fontePrincipal : 'Trebuchet MS';
     --tamanhoFonteTitulo : 24pt;
 }
@@ -80,7 +80,7 @@ header a{
     border-radius: 3px;
 }
 
-#sobreNos{
+.texto{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -89,6 +89,8 @@ header a{
 }
 
 #topicoDicas{
+    display: flex;
+
     gap: 20px;
     justify-content: center;
 }
@@ -117,4 +119,47 @@ header a{
     background-image: url(image/cultivo.jpg);
 }
 
+#topicoDecoracao{
+    background-image: url(image/decoração.jpg);
+}
 
+#topicoEventos{
+    background-image: url(image/eventos.jpg);
+}
+
+.btntopicoDicas{
+    padding: 10px;
+    border: none;
+    border: 2px solid var(--corBtnCatalogo);
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#grupoRedes{
+    display: flex;
+    gap: 30px;
+}
+
+.redes{
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10pt;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.redes img{
+    width: 80%;
+}
+
+footer a{
+    font-size: 14px larger;
+}

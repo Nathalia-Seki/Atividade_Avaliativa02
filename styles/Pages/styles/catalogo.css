@@ -5,7 +5,6 @@
     --corBtnBorda: #AFD5D9;
     --black : black;
     --branco : white;
-    --brancoTransparente : rgba(255, 255, 255, 0.856);
     --fontePrincipal : 'Trebuchet MS';
     --tamanhoFonteTitulo : 24pt;
 }
@@ -54,50 +53,6 @@ header a{
     font-size: large;
 }
 
-main{
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    padding: 200px;
-}
-
-.imagem{
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#imgFundo{
-    background-image: url(/styles/image/cadastro..jpg);
-}
-
-main h3{
-    text-align: center;
-    color: var(--corBtnCatalogo);
-    font-size: larger;
-}
-
-.topico{
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: var(--brancoTransparente);
-}
-
-.espaco{
-    margin: 20px;
-    
-}
-
-button{
-    color: white;
-    background-color: var(--corBtnCatalogo);
-    border: none;
-    border-radius: 5px;
-    padding: 8px 8px;
-    cursor: pointer;
-}
 
 footer{
     justify-content: space-around;
