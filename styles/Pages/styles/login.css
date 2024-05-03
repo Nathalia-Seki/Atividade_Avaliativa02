@@ -123,8 +123,16 @@ button{
     font-size: bold;
     color: var(--branco);
     border-radius: 3px;
+    cursor: pointer;
 }
 
 #btnLogin{
     align-items: center;
+}
+
+button:hover{
+    background-color: var(--corBtnCatalogo);
+    cursor:pointer;
+    transition: 0.5s;
+    color: var(--branco)
 }
